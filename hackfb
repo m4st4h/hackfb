@@ -139,7 +139,7 @@ def login():
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun Elu kena checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mSepertinya akun anda kena checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
